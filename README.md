@@ -18,3 +18,7 @@ $ `npm test` -  run tests
 - Display request results in the addresses.njk select element.
 - Write suitable unit tests for functionality of the post route.
 - If time allows add some markup validation, e.g. what if the input is invalid?
+
+## My comments on the exercise
+
+- I used the https://api.os.uk/search/names endpoint, however, this doesn't return address data. I assume we should have used https://api.os.uk/search/places. Emailed the HR address, but didn't get a reply so went with the endpoint provided and have tried to show how it could work!
