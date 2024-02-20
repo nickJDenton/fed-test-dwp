@@ -9,6 +9,10 @@ $ `npm install` - install dependencies
 
 $ `DEBUG=frontend-test:* npm start` - run the app in debug mode
 
+## Potential issue on DWP macbook
+- both the app and tests may not run with macbook setup
+- if you get a message along the lines of 'Error: unable to get local issuer certificate' , you will need to type `export NODE_TLS_REJECT_UNAUTHORIZED=0` into the command line
+
 ## Tests
 $ `npm test` -  run tests                
 
